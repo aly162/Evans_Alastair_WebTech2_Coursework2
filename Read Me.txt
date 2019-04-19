@@ -1,0 +1,4 @@
+All site related files are in the "js" folder.
+helloexpress.js is the server file.
+Database is stored in SQL folder.
+Have included module package as a .rar due to file amount limitations.
