@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  
+  
+	<div88 class="row">
+				<img src="NB.png">
+				<a href="index2.html"><img src="MPTN.png"></a>
+				<a href="CC.html"><img src="CCTN.png"></a>
+				<a href="MC.html"><img src="MCTN.png"></a>
+				<a href="account.html"><img src="AMTN.png"></a>
+				<a href="message.html"><img src="SMTN.png"></a>
+				<a href="inbox.html"><img src="IBTN.png"></a>
+				<a href="login.html"><img src="LOTN.png"></a>
+	</div88>
+  
+  
+  
+  
+  
+  <div99>	
+  
+ <body onload="getDetails(); sort(); pass()" style ="background-color:black" class = "fade-in">
+
+     <div id="account" class="account">
+      <form class="account-content" action="/update2" method="get" >
+        <div class="contained">
+        <h1>Inbox</h1>
+		<p> Click "Update Mail" to check for new Mail.</p>
+
+        <label for="userNAME"><b></b></label>
+        <input type="text" name="userNAME" id="userNAME" size="8" required readonly="readonly" style="color:black" hidden>
+       
+
+		
+		<label for="MSG"></label>
+        <textarea name="MSG" id="MSG" cols = "10" rows = "10" hidden> </textarea>
+		
+		<button type="submit" class="updatebtn" >Update Mail</button>
+		<br><br>
+		
+
+        </div>
+
+      </form>
+		
+		
+		
+	
+		<h1> Mail </h1>
+		<p>Messages: </p>
+
+		<div111 id="output_area">
+			<br>
+		</div111>
+		<br>
+		
+
+		<div112 id="output_area2">
+			<br>
+			
+		</div112>
+		<br>
+		
+		<div113 id="output_area3">
+			<br>
+		</div113>
+		<br>
+		
+		
+		<div114 id="output_area4">
+			<br>
+		</div114>
+		<br>
+		
+		<div115 id="output_area5">
+			<br>
+		</div115>
+		<br>		
+		
+		
+		<div116 id="output_area6">
+			<br>
+		</div116>
+		<br>			
+		
+		<div117 id="output_area7">
+			<br>
+		</div117>
+		<br>	
+		
+		<div118 id="output_area8">
+			<br>
+		</div118>
+		<br>			
+		
+		<div119 id="output_area9">
+			<br>
+		</div119>
+		<br>		
+		
+		<div120 id="output_area10">
+			<br>
+		</div120>
+		<br>
+
+
+		<div121 id="output_area11">
+			<br>
+		</div121>
+		<br>			
+		
+		
+     <div id="inbox"">
+      <form action="/delMSG" method="get" >
+        <div class="contained">
+
+		
+        <label for="userNAME2"><b></b></label>
+        <input type="text" name="userNAME2" id="userNAME2" size="8" required readonly="readonly" hidden>
+		
+        <button type="submit">Clear Messages</button>
+		
+
+        </div>
+      </form>
+		<p> Clear Messages will remove all Messages.</p>
+		
+		
+		
+		
+		
+	</div99>
+	
+	
+	
+
+	<script language="JavaScript" src="getdeets.js"></script>
+	<script language="JavaScript" src="sortmail.js"></script>
+	<script language="JavaScript" src="passusername.js"></script>
+
+
+
+
+  </body>
+</html>
+
+	<style>
+	
+	div88{}
+	
+		.row{
+			display:inline-block;
+			width:10%;
+			height:0px;
+			}
+
+		.row img{
+			display: table-cell;
+			padding: 2px;
+			max-width: 55%;;
+		}
+	
+	
+	h1 {color:white}
+	h1 {text-align:center}
+	p {color:white}
+	p {text-align:center}
+	
+	div111 {color:white}
+	div112 {color:white}
+	div113 {color:white}
+	div114 {color:white}
+	div115 {color:white}
+	div116 {color:white}
+	div117 {color:white}
+	div118 {color:white}
+	div119 {color:white}
+	div120 {color:white}
+	
+
+	div99 {
+		display: table;
+		margin-right: auto;
+		margin-left: auto; 
+		}
+	
+	
+	.fade-in
+		{
+		animation: fadeIn ease 2s;
+		}
+
+	@keyframes fadeIn{
+		0% { opacity:0;}
+		100% {opacity:1;}	
+
+</style>					
