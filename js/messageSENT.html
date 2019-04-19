@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  
+	<div88 class="row">
+				<img src="NB.png">
+				<a href="index2.html"><img src="MPTN.png"></a>
+				<a href="CC.html"><img src="CCTN.png"></a>
+				<a href="MC.html"><img src="MCTN.png"></a>
+				<a href="account.html"><img src="AMTN.png"></a>
+				<a href="message.html"><img src="SMTN.png"></a>
+				<a href="inbox.html"><img src="IBTN.png"></a>
+				<a href="login.html"><img src="LOTN.png"></a>
+
+	</div88>
+	
+  <body onload="getDetails()" style ="background-color:black" class = "fade-in">
+
+	<div99>
+
+     <div id="message" style="color:white">
+      <form action="/message" method="get" >
+        <div class="contained">
+		
+		
+        <h1>Message Outbox</h1>
+        <p>Send a Message.</p>
+
+
+        <label for="userNAME"><b>Username:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+        <input type="text" name="userNAME" id="userNAME" required readonly="readonly">
+        <br><br>
+
+  		<label for="REC"><b>Recipient:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+        <input type="text" name="REC" id="REC" required>
+        <br><br>
+		
+		<label for="MSG"><b>Message Box:</b></label>
+        <input type="text" name="MSG" id="MSG" required>
+        <br><br>
+
+        <button type="submit">Send it !</button>
+
+        </div>
+		
+		<h1> Message Sent! </h1>
+		
+		
+		
+		
+		
+		<br><br>
+				<h1> Send an Encrypted Message<h1>
+				<h1> Caesar Cipher </h1>
+				
+		<p1> Type the message into the process box, <br> hit encode and the encrypted message<br> will be sent to the Message Box above. </p1>	
+		<br>
+		<br>
+		<p1>Please input a number to shift by (0-24):</p1>	
+		
+
+		<select id="select">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+			<option value="21">21</option>
+			<option value="22">22</option>
+			<option value="23">23</option>
+			<option value="24">23</option>
+			<option value="25">24</option>
+		</select>
+
+		<div>
+			<br>
+		</div>
+		
+		<p1> Please enter the characters you wish to process:</p1>
+	
+		<div id="input_area">
+			<textarea rows="4" cols="40"  id="message22"></textarea>
+		</div>
+		
+		<div20>
+			<button type="button" onclick="encode(); fadein();"> Encode </button>
+		</div20>
+		
+		
+	
+		
+		<div1 id="output_area">
+			<br>
+		</div1>
+		
+		
+		
+		
+		<h1> Morse Code</h1>
+		<p1> Please enter the characters you wish to process:</p1>
+	
+		<div id="input_area">
+			<textarea rows="4" cols="40" id="message23"></textarea>
+		</div>
+		
+		<div20>
+			<button type="button" onclick="encode2(); fadein();"> Encode </button>
+	
+		</div20>
+
+		
+		<div1 id="output_area">
+		<br>
+		</div1>
+	
+		<br>
+		<p3> Morse Code Reference Table</p3>
+		<br><br>
+		<img src="mmt.png">
+
+		
+      </form>
+
+		<script type="text/javascript" src="CC2.js"></script>
+		<script type="text/javascript" src="CCR2.js"></script>
+		<script language="JavaScript" src="getdeets.js"></script>
+		<script type="text/javascript" src="MC2.js"></script>
+		<script type="text/javascript" src="MCR2.js"></script>
+		<script type="text/javascript" src="fadeOUTPUT.js"></script>
+
+
+
+
+  </body>
+  
+  </div99>
+</html>
+
+	<style>
+	
+	div88{}
+	
+		.row{
+			display:inline-block;
+			width:10%;
+			height:0px;
+			}
+
+		.row img{
+			display: table-cell;
+			padding: 2px;
+			max-width: 55%;
+		}
+	
+	
+	h1 {color:white}
+	h1 {text-align:center}
+	p {color:white}
+	p {text-align:center}
+	
+	div account {color:white}
+	
+	div99 {
+		display: table;
+		margin-right: auto;
+		margin-left: auto; 
+		}
+	
+	
+	.fade-in
+		{
+		animation: fadeIn ease 2s;
+		}
+
+	@keyframes fadeIn{
+		0% { opacity:0;}
+		100% {opacity:1;}	
+
+</style>

@@ -1,0 +1,139 @@
+<html>
+
+	<div88 class="row">
+				<img src="NB.png">
+				<a href="index2.html"><img src="MPTN.png"></a>
+				<a href="CC.html"><img src="CCTN.png"></a>
+				<a href="MC.html"><img src="MCTN.png"></a>
+				<a href="account.html"><img src="AMTN.png"></a>
+				<a href="message.html"><img src="SMTN.png"></a>
+				<a href="inbox.html"><img src="IBTN.png"></a>
+				<a href="login.html"><img src="LOTN.png"></a>
+	</div88>
+
+
+	<div99 class = "main">
+	
+		<head>	
+			<title> Caesar Cipher </title>
+		</head>
+
+	<body> 
+		
+		<h1> Caesar Cipher </h1>
+		<p1>Please input a number to shift by (0-24):</p1>	
+		
+
+		<select id="select">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+			<option value="21">21</option>
+			<option value="22">22</option>
+			<option value="23">23</option>
+			<option value="24">23</option>
+			<option value="25">24</option>
+		</select>
+
+		<div>
+			<br>
+		</div>
+		
+		<p1> Please enter the characters you wish to process:</p1>
+	
+		<div id="input_area">
+			<textarea rows="4" cols="40" autofocus id="message"></textarea>
+		</div>
+		
+		<div20>
+			<button type="button" onclick="encode(); fadein();"> Encode </button>
+			<button type="button" onclick="decode(); fadein();"> Decode </button>
+		</div20>
+		
+		
+		<br><br>
+		<p2>Processing Complete!</p2>	
+		<br><br>
+		
+		<div1 id="output_area">
+			<br>
+		</div1>
+		
+	</div99>	
+	
+		<script type="text/javascript" src="fadeOUTPUT.js"></script>
+		<script type="text/javascript" src="CC.js"></script>
+		<script type="text/javascript" src="CCR.js"></script>
+
+	</body>	
+	
+
+	<style>
+	
+	div88{}
+	
+		.row{
+			display:inline-block;
+			width:10%;
+			height:0px;
+			}
+
+		.row img{
+			display: table-cell;
+			padding: 2px;
+			max-width: 55%;
+		}
+
+	html{background-color: black}
+	t1{color:white}
+	h1{color:white}
+	p1{color:white}
+	p2{color:white}
+	
+	div1{
+		color:white;
+		font-size: 20px;
+		display: block;
+		max-width: 300px;
+		border: 1px solid white;
+		padding: 2px;
+		border: 1px solid white;
+		word-wrap: break-word;
+		}
+	
+	div99{
+		display: table;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 20px;
+		}
+
+	
+	.main{
+			animation: main ease 2s;
+			}
+
+	@keyframes main{
+					0% { opacity:0;}
+					100% {opacity:1;}
+					}			
+	</style>
+</html>
